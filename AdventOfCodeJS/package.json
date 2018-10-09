@@ -1,0 +1,20 @@
+{
+  "name": "adventofcodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel-node app.js",
+    "test": "mocha --compilers js:babel-core/register"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "mocha": "^4.1.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3"
+  }
+}

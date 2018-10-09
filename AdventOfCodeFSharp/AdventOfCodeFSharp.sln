@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2009
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "AdventOfCodeFSharp", "AdventOfCodeFSharp\AdventOfCodeFSharp.fsproj", "{CB506698-35A1-41EB-8995-9A5EE5546309}"
+EndProject
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "AdventOfCodeFSharp.Tests", "AdventOfCodeFSharp.Tests\AdventOfCodeFSharp.Tests.fsproj", "{0361334B-F177-453C-A683-491E863B0A66}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CB506698-35A1-41EB-8995-9A5EE5546309}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB506698-35A1-41EB-8995-9A5EE5546309}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB506698-35A1-41EB-8995-9A5EE5546309}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB506698-35A1-41EB-8995-9A5EE5546309}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0361334B-F177-453C-A683-491E863B0A66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0361334B-F177-453C-A683-491E863B0A66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0361334B-F177-453C-A683-491E863B0A66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0361334B-F177-453C-A683-491E863B0A66}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A8D2DA2F-D0B5-40D3-86F3-E0A6BC8126AD}
+	EndGlobalSection
+EndGlobal
