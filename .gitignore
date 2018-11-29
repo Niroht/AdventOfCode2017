@@ -31,3 +31,4 @@ AdventOfCodeFSharp/AdventOfCodeFSharp.Tests/obj/
 AdventOfCodeCPlusPlus/Release/
 AdventOfCodeCPlusPlus/AdventOfCodeCPlusPlus/Release/
 **/__pycache__/**
+*.project

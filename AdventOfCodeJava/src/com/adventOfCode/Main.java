@@ -8,6 +8,7 @@ public class Main {
         solveDayOne();
         solveDayTwo();
         solveDayFour();
+        solveDayEleven();
     }
 
     private static void solveDayOne(){
@@ -48,5 +49,11 @@ public class Main {
         System.out.println("Day Four");
         System.out.println(validSimple);
         System.out.println(validComplex);
+    }
+    
+    private static void solveDayEleven() {
+    	System.out.println("Day Eleven");
+    	System.out.println(HexGridNavigator.findFewestStepsToDestination(Inputs.DAY_ELEVEN));
+    	System.out.println(HexGridNavigator.findFewestStepsToFurthestPoint(Inputs.DAY_ELEVEN));
     }
 }
